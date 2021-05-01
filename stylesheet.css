@@ -1,0 +1,41 @@
+.wrapper { 
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 1em;
+background-image: linear-gradient(orange,yellow);
+align-content: center;
+gap: 1em;
+max-width: 90%;
+
+}
+
+.box {
+border-radius: 20px;
+background-color: black;
+font-family: sans-serif; 
+font-size: 60px; color: white;
+font-style: bold;
+text-align: center;
+
+}
+.subwrapper {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+grid-template-rows: 3fr 1fr;
+background-color: black;
+gap: 1em;
+border-radius: 20px;
+grid-column: span 2;
+padding: 1em;
+}
+.subbox {
+border-radius: 20px;
+background-color: white;
+font-family: sans-serif; 
+font-size: 60px;
+font-style: bold;
+text-align: center;
+align-content: center;
+}
