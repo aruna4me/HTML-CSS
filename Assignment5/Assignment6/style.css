@@ -1,0 +1,17 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+background-color: lightcoral;
+
+
+}
+
+.container{
+display: flex;
+margin: 2px;
+border: 2px solid black;
+height: 500px;
+justify-content: center;
+align-item: center;
+
+}
