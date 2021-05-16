@@ -1,0 +1,212 @@
+*{
+   font-family: Dosis;
+  
+}
+body{
+   box-sizing: border-box;
+   overflow: scroll;
+}
+.container{
+width: 95%;
+margin: auto;
+}
+
+#main-header{
+color: #333;
+}
+
+.logo {
+    font-size: 60px;
+    padding-right: 100px;
+
+    }
+#main-header ul {
+float: right;
+
+}
+#main-header li {
+   font-size: 20px;
+   display: inline;
+  
+}
+
+ #main-header a {
+    display: inline;
+       text-decoration: none;
+       margin-right: 50px;
+       text-transform: uppercase;
+      color:rgb(44, 46, 49);
+      font-weight: bolder;
+     }
+     
+ #main-header li a:hover{
+    color: chartreuse;
+ }
+ 
+#photo {
+background-image: url(homeimg.jpg);
+min-height: 800px;
+margin-bottom: 20px;
+}
+.innerbox {
+   display:  block;
+   width: 80%;
+   background-color: white;
+   height:50px;
+   border: 1px solid white; 
+   margin:auto;
+   margin-top:-50px;
+}
+
+#photo h1 {
+font-size: 80px;
+color: white;
+text-align: center;
+margin: auto;
+position: absolute;
+top: 40%;
+left:40%;
+transform: translate(-40%, -50%);
+
+}
+#photo p {
+   font-size: 60px;
+   color: white;
+   text-align: center;
+   margin: auto;
+   position: absolute;
+top: 55%;
+left:40%;
+transform: translate(-40%, -50%);
+}
+
+.outerbox{
+ display: flex;
+ gap: 20px;
+
+}
+#shopping img{
+background-color: green;
+border-radius: 50%;  
+color: white;
+   }
+#shopping h1{
+font-size: 50px;
+}
+
+
+
+#latest p{
+font: bold 80px black;
+text-transform: uppercase;
+text-align: center;
+font-family: Dosis;
+}
+.wrapper{
+align-items: center;
+text-align: center;
+}
+
+.line1{
+left: 30%;
+width:200px;
+background-color: rgb(209, 202, 202);
+position: absolute;
+height:1px;
+
+}
+
+#latest.fa{
+color:rgb(145, 140, 140);
+margin-bottom: 10px;
+position: relative;
+}
+
+.line2{
+   width:200px;
+   background-color: rgb(209, 202, 202);
+   position: absolute;
+   height:1px;
+   left: 55%
+   }
+      
+   #latest .products{
+   display: flex;
+   gap: 15px;
+   margin: auto;
+   justify-content: space-evenly;
+   
+
+   }
+      #latest .box{
+      box-sizing: border-box;
+      border: 1px solid rgb(209, 202, 202);
+      height:auto;
+      
+      }
+      #latest img{
+         display: block;
+         padding:10px;
+         width: 400px;
+         align-items: center;
+      }
+
+      #latest img:hover{
+      background-color: aqua;
+      }
+      #latest h1{
+      font-size: 25px;
+     
+      text-align: center;
+      }
+      #latest p{
+         font-size: 25px;
+       
+         text-align: center;
+         }
+
+      #section2 .container3{
+      margin-top:20px;
+            left: 40%;
+      display: flex;
+      justify-content:center;
+      text-align: center;
+
+   }
+   #section2 .browse{
+      
+      text-transform: uppercase;
+      background-color: aqua;
+      max-width: 200px;
+       padding:20px 20px;
+   }
+   #section2 .fa{
+color: white;
+   }
+   #section2 .greenbox{
+      background-color: rgb(8, 77, 80);
+      width: 25px;
+      padding: 20px 20px;
+   }
+
+#last-section .container4{
+display:flex;
+gap:30px;
+font-family: Dosis;
+}
+#last-section .box{
+box-sizing: border-box;
+border: 1px solid #baf8f8;
+height:auto;
+}
+#last-section h1{
+   font-family: Dosis;
+font: bold 30px black;
+text-align: center;
+}   
+#last-section p{
+   font: normal 20px black;
+  margin-top: 2px;
+  padding:2px 10px;
+   text-align: justify;
+   }   
