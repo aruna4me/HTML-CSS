@@ -1,0 +1,263 @@
+body{ box-sizing: border-box; overflow:scroll; margin:0; font-family: Dosis;}
+.page-width{width:95%; margin:auto;}
+    #top-logo{
+    font-family: Dosis;
+    background-color: white;
+    position:fixed; 
+   left:0%;
+   padding-left: 20PX;
+    height:90px;
+    width:100%;
+    margin:0%;
+    }
+
+    #top-logo a{font-size: 40px;    padding-right: 100px;    text-shadow: 0.5px 0.5px 0.5px #3D566E;  
+               font-weight: 700;text-decoration: none;color:#3D566E; }
+    #nav-bar{width:100%; position:fixed; float: right}
+
+    #nav-bar ul{height: 70px; background-color: white; float:right; position: relative;}
+    #nav-bar li{display: inline;}
+    #nav-bar a{font-size: 20px; font-family: Dosis;color:#3D566E; text-decoration: none; text-transform: uppercase;
+                float:right;padding: 20px; font-weight:bolder;text-shadow: 0.5px 0.5px 0.5px #3D566E;}
+      #nav-bar a:hover{  color: #00bba4;}
+
+    #section1-bgimage{background-image:url(shop-bgimage.jpg); height:400px; width:100%;margin: 0;padding:0; 
+                    display: flex; flex-direction: column; margin:auto; }
+    #section1-bgimage h1{font-size: 50px; color:white; text-align: center; padding-top:50px; font-family: Dosis;}
+    .overlap-box{ display: flex;
+                width: 90%;
+                background-color: white;
+                height:50px;
+                border: 1px solid white; 
+                margin:auto;
+                margin-top:-50px;   
+                 }
+    #section2-heading h1{font:30px Dosis;color: grey; text-align: center;text-transform: uppercase;font-weight: bolder;}
+   
+    #section2-heading .outer1::before{
+        left:-13px;
+        background:#f7f7f7;
+         display:inline-block;
+         content:"";
+         height:1px;
+         width:50%;
+         margin-top:9px;
+         vertical-align:top;
+         position:relative;
+         background-color:#e4e4e4;
+     }
+    
+     #section2-heading .fa-star{color:grey; font-size:20px; text-align: center;   }
+     #section2-heading .outer1::after{
+        left:13px;
+         margin-right:-60%;
+         display:inline-block;
+         content:"";
+         height:1px;
+         width:35%;
+         margin-top:9px;
+         vertical-align:top;
+         position:relative;
+         background-color:#e4e4e4;
+     }
+
+     #section3 .products {
+        display: flex;
+        gap: 15px;            
+        width:90%;
+        margin:auto;
+                     }
+                     #section3 img{
+                        display: block;
+                        padding:10px;
+                        width: 700px;
+                       height: 700px;
+                        
+                      position: relative;
+                      }
+        #section3 .description{
+            font: Dosis 20px; 
+            padding: 20px;
+
+        } 
+        #section3 .right-box{
+            background-color: rgb(22, 141, 141);
+            color: white;
+            height: 60px;
+            width: 30%;
+            box-shadow: 0 1px 0 black;
+        }
+        #section3 h1{ text-align: center;}
+        #section3 .box-small{
+            
+            height: 500px;
+          
+            border: 1px solid grey;
+        }
+        
+
+        #section3 p{ text-align: left;color:black; padding: 10px; line-height: 0.8em; }
+           #section3 .box{
+            left:15px;
+           box-sizing: border-box;
+           display: flex;
+           flex-direction: column;
+           justify-content:center;
+           align-items: center;
+                                            
+                      border: 1px solid rgb(224, 214, 214);
+           width: 60%;
+           
+                      }
+     
+          
+        
+               
+
+         .greenbox2{
+     background-color:aqua;
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     margin-top: 20px;
+     }
+     .greenbox2 p{
+        font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     color:white;
+     text-align: center;
+     padding:15px 5px;
+     }
+     #giftbox{
+     display:flex;
+     box-sizing: border-box;
+     border: 1px solid white;
+     height:50px;
+     font-size: 30px;
+     color: white;
+     width:200px;
+     align-items: center;
+     justify-content:center;
+     margin: 10px;
+     }
+     
+     #blackbox {
+     background-color: black;
+     color: white;
+     text-align: center;
+     height: 200px;
+     display: grid;
+     place-items: center;
+     }
+     #blackbox .text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+       padding-top: 10px;
+       margin:0%;
+       }
+     #blackbox .social{
+     display: flex;
+     justify-content:center;
+     }
+     
+     #blackbox .social-icons{
+     padding: 10px 10px;
+     border: 1px solid white;
+     width: 50px;
+     margin: 10px; 
+     line-height: 50px;
+     }
+     #blackbox .template{
+     padding-bottom: 10px;
+     }
+     #blackbox .colored{
+        color:aqua; 
+     }
+     .whitespace{
+     height: 100px;
+     
+     }
+     
+     /*  meadia query */
+     
+     
+      /* For mobile phones: */
+      @media only screen and (max-width: 600px) {
+        [class*="col-"] {
+           width: 100%;
+         }
+         .container-2{
+             margin-top: 0;
+         }
+         #logo{
+           position: absolute;
+           top: 40%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+         }
+         ul{
+           position: absolute;
+           top: 80%;
+           left: 0%;
+           transform: translate(0%,-50%);
+         }
+         nav{
+             height: 100px;
+         }
+        
+       }
+         
+         @media only screen and (min-width: 600px )and (max-width : 767px) {
+           /* For tablets: */
+           .col-s-1 {width: 8.33%;}
+           .col-s-2 {width: 16.66%;}
+           .col-s-3 {width: 25%;}
+           .col-s-4 {width: 33.33%;}
+           .col-s-5 {width: 41.66%;}
+           .col-s-6 {width: 50%;}
+           .col-s-7 {width: 58.33%;}
+           .col-s-8 {width: 66.66%;}
+           .col-s-9 {width: 75%;}
+           .col-s-10 {width: 83.33%;}
+           .col-s-11 {width: 91.66%;}
+           .col-s-12 {width: 100%;}
+           #logo{
+               position: absolute;
+               top: 40%;
+               left: 50%;
+               transform: translate(-50%,-50%);
+             }
+             ul{
+               position: absolute;
+               top: 80%;
+               left: 0%;
+               transform: translate(0%,-50%);
+               width: auto;
+       
+             }
+             nav{
+                 height: 100px;
+             }
+          
+           
+         }
+         
+         @media only screen and (min-width: 768px) {
+           /* For desktop: */
+           .col-1 {width: 8.33%;}
+           .col-2 {width: 16.66%;}
+           .col-3 {width: 25%;}
+           .col-4 {width: 33.33%;}
+           .col-5 {width: 41.66%;}
+           .col-6 {width: 50%;}
+           .col-7 {width: 58.33%;}
+           .col-8 {width: 66.66%;}
+           .col-9 {width: 75%;}
+           .col-10 {width: 83.33%;}
+           .col-11 {width: 91.66%;}
+           .col-12 {width: 100%;}
+           .container2{display: flex;}
+           .pcont{display: flex;}
+           .p{margin: 10px 10px;}
+         } 
